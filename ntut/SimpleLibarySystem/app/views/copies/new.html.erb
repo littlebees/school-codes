@@ -1,0 +1,7 @@
+<h1> 新增 <%= @book.title %> 的副本 </h1>
+<%= simple_form_for @copy do |f| %>
+    <%= f.input :enter_time %>
+    <%= f.input :state %>
+    <%= f.button :submit %>
+<% end %>
+

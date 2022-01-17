@@ -1,0 +1,30 @@
+<h1> 出版社介紹 </h1>
+<% if can? :update, Publisher %>
+    <%= button_to "修改出版社資料", edit_publisher_url(@publisher), {method: :get , class:"btn btn-default"}%>
+<% end %>
+<h3>資料</h3>
+<table class="table">
+    <thead>
+        <th>公司名</th>
+        <th>地址</th>
+    </thead>
+    <tbody>
+        <%= render @publisher %>
+    </tbody>
+</table>
+
+<h3>擁有的書</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>標題</th>
+            <th>ISBN</th>
+            <th>出版日期</th>
+            <th>副本數</th>
+            <th>分類</th>
+        </tr>
+    </thead>
+    <tbody>
+        <%= render @books %>
+    </tbody>
+</table>

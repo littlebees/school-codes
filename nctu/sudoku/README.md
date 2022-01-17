@@ -1,0 +1,1 @@
+A C++ program translates a sudoku quiz into DIMACS CNF format.

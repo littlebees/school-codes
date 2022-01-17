@@ -1,0 +1,13 @@
+<%= simple_form_for(@search) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :keyword %>
+    <%= f.input :authors , placeholder:"用分號隔開"%>
+    <%= f.input :publisher_id, collection: Publisher.all%>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

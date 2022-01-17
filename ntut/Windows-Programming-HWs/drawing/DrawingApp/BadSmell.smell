@@ -1,0 +1,497 @@
+<html>
+  <head>
+    <title>Code Review :: </title>
+    <style type="text/css">
+    .body{background-color:White;}
+    .summary{width:100%;font-weight:bold;background-color:White;border: thin solid #808000;color:#FAFCFE}
+    .outer{font-weight:normal;color:#6D5757;background-color:#FFDFBF}
+    .inner{font-weight:normal;color:black;}
+    .reviewTable{border: thin solid #C0C0C0; width:100%}
+    .headerRow{color:white;background-color: #800000;font-weight:bold;text-align: center}
+    .reviewRow{background-color:#FFDFBF;color:black;}
+    .rAligned{text-align:right;}
+    .data{visibility:hidden}
+  </style>
+  </head>
+  <body class="body">
+    <div class="summary">
+      <table>
+        <tr>
+          <td colspan="3" class="headerRow">Review Summary</td>
+        </tr>
+        <tr class="outer">
+          <td>Project Name : <label class="inner" /></td>
+          <td>Reviewed By : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Project Code : <label class="inner" /></td>
+          <td>Reviewed Date : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Name : <label class="inner" /></td>
+          <td>Status : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Version : <label class="inner" /></td>
+          <td>Review Preparation Effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Size (ekloc) : <label class="inner" /></td>
+          <td>Review effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Release Date for Review : <label class="inner" /></td>
+          <td>Rework effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken By : <label class="inner" /></td>
+          <td>Review Efficiency : <label class="inner">NaN</label></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken Date : <label class="inner" /></td>
+          <td />
+        </tr>
+      </table>
+      <table>
+        <tr class="headerRow">
+          <td colspan="2">Review Details</td>
+          <td colspan="2">Defect Status Analysis</td>
+          <td colspan="2">Defect Type Analysis</td>
+          <td colspan="4">Defect Injected Phase Analysis</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Major</td>
+          <td>Medium</td>
+          <td>Minor</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Suggestions</td>
+          <td class="inner">0</td>
+          <td>Open</td>
+          <td class="inner">0</td>
+          <td>Logical</td>
+          <td class="inner">0</td>
+          <td>Initial Project Setup</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Errors</td>
+          <td class="inner">0</td>
+          <td>On Hold</td>
+          <td class="inner">0</td>
+          <td>Incomplete</td>
+          <td class="inner">0</td>
+          <td>Project Initiation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total</td>
+          <td class="inner">0</td>
+          <td>Closed</td>
+          <td class="inner">0</td>
+          <td>UI</td>
+          <td class="inner">0</td>
+          <td>Requirement Analysis</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td>Rejected</td>
+          <td class="inner">0</td>
+          <td>Exception Handling</td>
+          <td class="inner">0</td>
+          <td>Architecture and Design</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Documentation</td>
+          <td class="inner">0</td>
+          <td>Implementation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>QA Testing</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>Transition Phase</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="rAligned">Total</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table class="reviewTable">
+      <tr class="headerRow">
+        <td>#</td>
+        <td>Description</td>
+        <td>Status</td>
+        <td>DefectType</td>
+        <td>InjectedPhase</td>
+      </tr>
+    </table>
+    <div>
+      <br />
+    Created with <a href="http://visualstudiogallery.msdn.microsoft.com/d1e40c49-da36-42a5-8d5a-4ebe1feabbc9">ReviewPal</a></div>
+    <div class="data">
+      <Data id="ReviewPalData">
+        <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.App.OnLaunched.32LaunchActivatedEventArgs e;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>32</Weight>
+              <Project>DrawingApp</Project>
+              <File>App.xaml.cs</File>
+              <Line>40</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.App.OnNavigationFailed</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>App.xaml.cs</File>
+              <Line>78</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.App.OnSuspending</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>App.xaml.cs</File>
+              <Line>90</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>Unsuitable naming(名不符實)-BmpCommand(bmp)</SmellType>
+              <HashCode>UnsuitableNaming.DrawingApp.AppCommand.BmpCommand.BmpCommand</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>BmpCommand.cs</File>
+              <Line>9</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>Unsuitable naming(名不符實)-BmpFile(bmp)</SmellType>
+              <HashCode>UnsuitableNaming.DrawingModel.BmpFile.BmpFile</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>BmpFile.cs</File>
+              <Line>10</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>Unsuitable naming(名不符實)-GetEnumerator(enumerator)</SmellType>
+              <HashCode>UnsuitableNaming.CommandHistory.GetEnumerator.GetEnumerator</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>CommandHistory.cs</File>
+              <Line>80</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>Unsuitable naming(名不符實)-IEnumerable.GetEnumerator(enumerable, enumerator)</SmellType>
+              <HashCode>UnsuitableNaming.CommandHistory.IEnumerable.GetEnumerator.IEnumerable.GetEnumerator</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>CommandHistory.cs</File>
+              <Line>89</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.CommandHistory.IEnumerable.GetEnumerator</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>CommandHistory.cs</File>
+              <Line>89</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>ICS(空白與空行-13)</SmellType>
+              <HashCode>SpacingAndNewLine13</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>AppDrawing.cs</File>
+              <Line>87</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>ICS(空白與空行-13)</SmellType>
+              <HashCode>SpacingAndNewLine13</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>AppDrawing.cs</File>
+              <Line>87</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>Unsuitable naming(名不符實)-polygon(polygon)</SmellType>
+              <HashCode>UnsuitableNaming.AppDrawing.Draw.polygon</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>AppDrawing.cs</File>
+              <Line>56</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>12</Id>
+              <SmellType>Long parameter list(過長參數列)</SmellType>
+              <HashCode>LongParameterList.AppDrawing.InitializeShape.Shape shape;int left;int top;int right;int bottom;SolidColorBrush fillColorBrush;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>6</Weight>
+              <Project>DrawingApp</Project>
+              <File>AppDrawing.cs</File>
+              <Line>102</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
+          <HashCodeIgnoreList>
+            <string>UnsuitableNaming.DrawingApp.AppCommand.BmpCommand.BmpCommand</string>
+            <string>UnsuitableNaming.CommandHistory.GetEnumerator.GetEnumerator</string>
+            <string>UnsuitableNaming.DrawingModel.BmpFile.BmpFile</string>
+            <string>UnsuitableNaming.CommandHistory.IEnumerable.GetEnumerator.IEnumerable.GetEnumerator</string>
+            <string>LongMethod.App.OnLaunched.32LaunchActivatedEventArgs e;</string>
+            <string>Method2.App.OnNavigationFailed</string>
+            <string>Method2.App.OnSuspending</string>
+            <string>Method2.CommandHistory.IEnumerable.GetEnumerator</string>
+            <string>LongParameterList.AppDrawing.InitializeShape.Shape shape;int left;int top;int right;int bottom;SolidColorBrush fillColorBrush;</string>
+            <string>UnsuitableNaming.AppDrawing.Draw.polygon</string>
+            <string>SpacingAndNewLine13</string>
+          </HashCodeIgnoreList>
+          <AnalysisFileManager>
+            <AnalysisFiles>
+              <AnalysisFile>
+                <RelativePath>App.xaml.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>AppCommand\BmpCommand.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>AppCommand\CircleCommand.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>AppCommand\NoCommand.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>AppCommand\RectangleCommand.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>AppCommand\TriangleCommand.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MainPage.xaml.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\BmpFile.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\Command\CommandHistory.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\Command\ICommand.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\Command\IDrawCommand.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\Command\ISaveCommand.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\DrawCommand\Circle.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\DrawCommand\Nothing.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\DrawCommand\Rectangle.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\DrawCommand\Triangle.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\HIstoryNode.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\IDrawer.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\IGraphics.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\Model.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\Point.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\PresentationModelBase.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\SaverBase.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\AppDrawing.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\AppSaver.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\PresentationModel.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\WindowsStoreGraphicsAdaptor.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>DrawingApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+            </AnalysisFiles>
+          </AnalysisFileManager>
+          <ProductionLoc>1180</ProductionLoc>
+          <TestLoc>0</TestLoc>
+        </CodeReview>
+      </Data>
+    </div>
+  </body>
+</html>

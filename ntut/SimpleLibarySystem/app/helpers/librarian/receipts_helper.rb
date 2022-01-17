@@ -1,0 +1,2 @@
+module Librarian::ReceiptsHelper
+end

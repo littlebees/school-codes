@@ -1,0 +1,15 @@
+<tr>
+    <td> <%= link_to book.title, book_url(book) %> </td>
+    <td> <%= book.isbn %> </td>
+    <td> <%= book.year %> </td>
+    <td> <%= book.copy_number %> </td>
+    <% if book.category %>
+        <td> <%= book.category %> </td>
+    <% else %>
+        <td> #### </td>
+    <% end %>
+    <td><%= button_to "預約",appoint_book_url(book), class: "btn btn-info" %></td>
+    <% if can? :create,Copy %>
+        <td><%= button_to "新增副本",add_copy_book_url(book), class: "btn btn-info" %></td>
+    <% end %>
+</tr>

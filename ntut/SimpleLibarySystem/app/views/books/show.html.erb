@@ -1,0 +1,57 @@
+<h1> <%= @book.title %> 的書本概況</h1>
+<h2> 書本介紹 </h2>
+<% if can? :update, Book %>
+<%= button_to "修改書籍", edit_book_url(@book), {method: :get , class:"btn btn-default"}%>
+<% end %>
+<h3> 簡介 </h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>標題</th>
+            <th>ISBN</th>
+            <th>出版日期</th>
+            <th>副本數</th>
+            <th>分類</th>
+        </tr>
+    </thead>
+    <tbody>
+        <%= render @book %>
+    </tbody>
+</table>
+
+<h3> 出版社 </h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>名稱</th>
+            <th>地址</th>
+        </tr>
+    </thead>
+    <tbody>
+        <%= render @book.publisher %>
+    </tbody>
+</table>
+
+<h3> 作者 </h3>
+<table class="table">
+    <thead>
+        <th>名字</th>
+        <th>所屬組織</th>
+    </thead>
+    <tbody>
+        <%= render @book.authors %>
+    </tbody>
+</table>
+
+<h2> 副本狀態 </h2>
+<table class="table">
+    <thead>
+        <th>入館時間</th>
+        <th>書籍狀態</th>
+    </thead>
+    <tbody>
+        <%= render @copies %>
+    </tbody>
+</table>
+
+<%= button_to "回書本總覽",books_url,:method => :get %>

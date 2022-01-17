@@ -1,0 +1,22 @@
+<h1> 修改書本資訊 </h1>
+<%= simple_form_for @book do |f| %>
+    <%= f.input :title %>
+    <%= f.input :isbn %>
+    <%= f.input :year %>
+    <%= f.input :copy_number, placeholder: 'can leave blank' %>
+    <%= f.input :category, placeholder: 'can leave blank' %>
+    <%= f.button :submit %>
+<% end %>
+
+<h2>作者</h2>
+<table class="table">
+<% @book.authors.each do |a| %>
+    <tr><%= link_to "修改"+a.name,edit_author_url(a) %> </tr>
+<% end %>
+</table>
+
+<h2>出版社</h2>
+<table class="table">
+    <% pub = @book.publisher %>
+    <tr><%= link_to "修改"+pub.name,edit_publisher_url(pub) %> </tr>
+</table>

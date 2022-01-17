@@ -1,0 +1,8 @@
+<h2> 修改讀者資料 </h2>
+<%= simple_form_for @user,:url => admin_user_url(@user), :method => :patch do |f| %>
+  <%= f.input :email %>
+  <%= f.input :name  %>
+  <%= f.input :password %>
+  <%= f.input :password_confirmation %>
+  <%= f.button :submit, class: "btn btn-primary"%>
+<% end %>

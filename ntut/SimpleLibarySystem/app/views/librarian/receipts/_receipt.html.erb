@@ -1,0 +1,11 @@
+<tr>
+    <td> <%= receipt.user.name %> </td>
+    <td> <%= receipt.copy.book.title %> </td>
+    <td> <%= receipt.lent_out_date %> </td>
+    <td> <%= receipt.due_date %> </td>
+    <% if receipt.back_date %>
+        <td> <%= receipt.back_date %> </td>
+    <% else %>
+        <td> #### </td>
+    <% end %>
+</tr>

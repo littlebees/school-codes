@@ -1,0 +1,28 @@
+<h2> 借閱現況 </h2>
+<h3> 預約清單 </h3>
+<table class="table">
+    <thead>
+        <th>書名</th>
+        <th>申請的時間</th>
+        <th>予許的時間</th>
+        <th>到期的時間</th>
+        <th>拿走的時間</th>
+    </thead>
+    <tbody>
+        <%= render @bills %>
+    </tbody>
+</table>
+
+<h3> 借書清單 </h3>
+<table class="table">
+    <thead>
+        <th>借閱者</th>
+        <th>書名</th>
+        <th>出借日</th>
+        <th>到期日</th>
+        <th>還書</th>
+    </thead>
+    <tbody>
+        <%= render @receipts %>
+    </tbody>
+</table>

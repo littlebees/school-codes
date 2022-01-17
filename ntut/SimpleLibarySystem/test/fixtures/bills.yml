@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  copy_id: 
+  reserve_time: 2015-12-09
+  due_time: 2015-12-09
+  take_date: 2015-12-09
+
+two:
+  user_id: 
+  copy_id: 
+  reserve_time: 2015-12-09
+  due_time: 2015-12-09
+  take_date: 2015-12-09

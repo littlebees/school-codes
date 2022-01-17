@@ -1,0 +1,527 @@
+<html>
+  <head>
+    <title>Code Review :: </title>
+    <style type="text/css">
+    .body{background-color:White;}
+    .summary{width:100%;font-weight:bold;background-color:White;border: thin solid #808000;color:#FAFCFE}
+    .outer{font-weight:normal;color:#6D5757;background-color:#FFDFBF}
+    .inner{font-weight:normal;color:black;}
+    .reviewTable{border: thin solid #C0C0C0; width:100%}
+    .headerRow{color:white;background-color: #800000;font-weight:bold;text-align: center}
+    .reviewRow{background-color:#FFDFBF;color:black;}
+    .rAligned{text-align:right;}
+    .data{visibility:hidden}
+  </style>
+  </head>
+  <body class="body">
+    <div class="summary">
+      <table>
+        <tr>
+          <td colspan="3" class="headerRow">Review Summary</td>
+        </tr>
+        <tr class="outer">
+          <td>Project Name : <label class="inner" /></td>
+          <td>Reviewed By : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Project Code : <label class="inner" /></td>
+          <td>Reviewed Date : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Name : <label class="inner" /></td>
+          <td>Status : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Version : <label class="inner" /></td>
+          <td>Review Preparation Effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Size (ekloc) : <label class="inner" /></td>
+          <td>Review effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Release Date for Review : <label class="inner" /></td>
+          <td>Rework effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken By : <label class="inner" /></td>
+          <td>Review Efficiency : <label class="inner">NaN</label></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken Date : <label class="inner" /></td>
+          <td />
+        </tr>
+      </table>
+      <table>
+        <tr class="headerRow">
+          <td colspan="2">Review Details</td>
+          <td colspan="2">Defect Status Analysis</td>
+          <td colspan="2">Defect Type Analysis</td>
+          <td colspan="4">Defect Injected Phase Analysis</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Major</td>
+          <td>Medium</td>
+          <td>Minor</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Suggestions</td>
+          <td class="inner">0</td>
+          <td>Open</td>
+          <td class="inner">0</td>
+          <td>Logical</td>
+          <td class="inner">0</td>
+          <td>Initial Project Setup</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Errors</td>
+          <td class="inner">0</td>
+          <td>On Hold</td>
+          <td class="inner">0</td>
+          <td>Incomplete</td>
+          <td class="inner">0</td>
+          <td>Project Initiation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total</td>
+          <td class="inner">0</td>
+          <td>Closed</td>
+          <td class="inner">0</td>
+          <td>UI</td>
+          <td class="inner">0</td>
+          <td>Requirement Analysis</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td>Rejected</td>
+          <td class="inner">0</td>
+          <td>Exception Handling</td>
+          <td class="inner">0</td>
+          <td>Architecture and Design</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Documentation</td>
+          <td class="inner">0</td>
+          <td>Implementation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>QA Testing</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>Transition Phase</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="rAligned">Total</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table class="reviewTable">
+      <tr class="headerRow">
+        <td>#</td>
+        <td>Description</td>
+        <td>Status</td>
+        <td>DefectType</td>
+        <td>InjectedPhase</td>
+      </tr>
+    </table>
+    <div>
+      <br />
+    Created with <a href="http://visualstudiogallery.msdn.microsoft.com/d1e40c49-da36-42a5-8d5a-4ebe1feabbc9">ReviewPal</a></div>
+    <div class="data">
+      <Data id="ReviewPalData">
+        <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.EzDrink.AdapterCollection.233</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>233</Weight>
+              <Project>EzDrink</Project>
+              <File>AdapterCollection.cs</File>
+              <Line>10</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>類別宣告-2</SmellType>
+              <HashCode>ClassDeclaration2.EzDrink.AddingButtonsStateMachine&lt;T&gt;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>EzDrink</Project>
+              <File>AddingButtonsStateMachine.cs</File>
+              <Line>11</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>類別宣告-2</SmellType>
+              <HashCode>ClassDeclaration2.EzDrink.DataContainer&lt;T&gt;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>EzDrink</Project>
+              <File>DataContainer.cs</File>
+              <Line>10</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>類別宣告-2</SmellType>
+              <HashCode>ClassDeclaration2.EzDrink.DataGridViewAdapter&lt;T&gt;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>EzDrink</Project>
+              <File>DataGridViewAdapter.cs</File>
+              <Line>13</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.EzDrink.EzDrinkForm.223</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>223</Weight>
+              <Project>EzDrink</Project>
+              <File>EzDrinkForm.cs</File>
+              <Line>7</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>函式-3</SmellType>
+              <HashCode>Method3.Ingredient.Clone</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>EzDrink</Project>
+              <File>Ingredient.cs</File>
+              <Line>59</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>函式-3</SmellType>
+              <HashCode>Method3.IngredientWhichCanBeAdded.Clone</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>EzDrink</Project>
+              <File>IngredientWhichCanBeAdded.cs</File>
+              <Line>55</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>Unsuitable naming(名不符實)-PRICE_OF_TIEGUANYIN(tieguanyin)</SmellType>
+              <HashCode>UnsuitableNaming.InitialData.GenerateDrinkList.PRICE_OF_TIEGUANYIN</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>EzDrink</Project>
+              <File>InitialData.cs</File>
+              <Line>42</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>Unsuitable naming(名不符實)-PRICE_OF_OOLONG_TEA(oolong)</SmellType>
+              <HashCode>UnsuitableNaming.InitialData.GenerateDrinkList.PRICE_OF_OOLONG_TEA</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>EzDrink</Project>
+              <File>InitialData.cs</File>
+              <Line>43</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>Unsuitable naming(名不符實)-TIEGUANYIN_TITLE(tieguanyin)</SmellType>
+              <HashCode>UnsuitableNaming.InitialData.GenerateDrinkList.TIEGUANYIN_TITLE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>EzDrink</Project>
+              <File>InitialData.cs</File>
+              <Line>47</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>Unsuitable naming(名不符實)-OOLONG_TEA_TITLE(oolong)</SmellType>
+              <HashCode>UnsuitableNaming.InitialData.GenerateDrinkList.OOLONG_TEA_TITLE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>EzDrink</Project>
+              <File>InitialData.cs</File>
+              <Line>48</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
+          <HashCodeIgnoreList>
+            <string>ClassDeclaration2.EzDrink.AddingButtonsStateMachine&lt;T&gt;</string>
+            <string>UnsuitableNaming.InitialData.GenerateDrinkList.PRICE_OF_TIEGUANYIN</string>
+            <string>UnsuitableNaming.InitialData.GenerateDrinkList.PRICE_OF_OOLONG_TEA</string>
+            <string>UnsuitableNaming.InitialData.GenerateDrinkList.TIEGUANYIN_TITLE</string>
+            <string>UnsuitableNaming.InitialData.GenerateDrinkList.OOLONG_TEA_TITLE</string>
+            <string>Method3.IngredientWhichCanBeAdded.Clone</string>
+            <string>Method3.Ingredient.Clone</string>
+            <string>ClassDeclaration2.EzDrink.DataContainer&lt;T&gt;</string>
+            <string>ClassDeclaration2.EzDrink.DataGridViewAdapter&lt;T&gt;</string>
+          </HashCodeIgnoreList>
+          <AnalysisFileManager>
+            <AnalysisFiles>
+              <AnalysisFile>
+                <RelativePath>AdapterCollection.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>AddingButtonsState.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>AddingButtonsStateMachine.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ButtonAdapter.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataContainer.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataGridViewAdapter.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataGridViewDisableButtonCell.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataGridViewDisableButtonColumn.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Drink.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>EzDrinkForm.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>EzDrinkForm.Designer.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>EzDrinkModel.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>IAdapter.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Ice.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>IMerchandise.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Ingredient.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>IngredientWhichCanBeAdded.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>InitialData.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ISame.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>LabelAdapter.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Order.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>OrderItem.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Program.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Resources.Designer.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Settings.Designer.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>RepresentationModel.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Sweet.cs</RelativePath>
+                <ProjectName>EzDrink</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataContainerTests.cs</RelativePath>
+                <ProjectName>EzDrinkTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DrinkTests.cs</RelativePath>
+                <ProjectName>EzDrinkTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>EzDrinkModelTests.cs</RelativePath>
+                <ProjectName>EzDrinkTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>FakeReceiver.cs</RelativePath>
+                <ProjectName>EzDrinkTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>IngredientTests.cs</RelativePath>
+                <ProjectName>EzDrinkTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>IngredientWhichCanBeAddedTests.cs</RelativePath>
+                <ProjectName>EzDrinkTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>OrderItemTests.cs</RelativePath>
+                <ProjectName>EzDrinkTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>OrderTests.cs</RelativePath>
+                <ProjectName>EzDrinkTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>EzDrinkTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+            </AnalysisFiles>
+          </AnalysisFileManager>
+          <TotalLine>3513</TotalLine>
+        </CodeReview>
+      </Data>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  copy_id: 
+  lent_out_date: 2015-12-07
+  due_date: 2015-12-07
+  back_date: 2015-12-07
+
+two:
+  user_id: 
+  copy_id: 
+  lent_out_date: 2015-12-07
+  due_date: 2015-12-07
+  back_date: 2015-12-07

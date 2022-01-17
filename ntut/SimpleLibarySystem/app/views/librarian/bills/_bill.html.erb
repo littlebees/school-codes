@@ -1,0 +1,24 @@
+<tr>
+    <td> <%= bill.user.name %> </td>
+    <td><%= bill.copy.book.title %> </td>
+    <td><%= bill.created_at %></td>
+    <% if bill.reserve_time %>
+        <td><%= bill.reserve_time %></td>
+    <% else %>
+        <td> #### </td>
+    <% end %>
+    <% if bill.due_time %>
+        <td><%= bill.due_time %></td>
+    <% else %>
+        <td> #### </td>
+    <% end %>
+    <% if bill.take_date %>
+        <td><%= bill.take_date %></td>
+    <% else %>
+        <td> #### </td>
+    <% end %>
+    <% unless bill.agreed? %>
+    <td><%= button_to "準了！！",librarian_bill_url(bill),:method => :patch %></td>
+    <td><%= button_to "NO！！",librarian_bill_url(bill),:method => :delete %></td>
+    <% end %>
+</tr>

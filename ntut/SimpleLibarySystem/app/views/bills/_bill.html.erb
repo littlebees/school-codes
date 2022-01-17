@@ -1,0 +1,21 @@
+<tr>
+    <td><%= bill.copy.book.title %> </td>
+    <td><%= bill.created_at %></td>
+    <% if bill.reserve_time %>
+        <td><%= bill.reserve_time %></td>
+    <% else %>
+        <td> #### </td>
+    <% end %>
+    <% if bill.due_time %>
+        <td><%= bill.due_time %></td>
+    <% else %>
+        <td> #### </td>
+    <% end %>
+    <% if bill.taked? %>
+        <td><%= bill.take_date %></td>
+    <% elsif bill.agreed? %>
+        <td> <%= link_to "拿書", user_bill_url(@user,bill), :method => :patch %> </td>
+    <% else %>
+        <td> <%= button_to "我不要了！！",user_bill_url(@user,bill), {:method => :delete, :class => "btn btn-danger", :data => {:confirm => "真的要取消？"}} %></td>
+    <% end %>
+</tr>

@@ -1,0 +1,8 @@
+<tr>
+    <td> <%= link_to author.name, author_url(author) %> </td>
+    <% if author.organization %>
+        <td> <%= author.organization %> </td>
+    <% else %>
+        <td> #### </td>
+    <% end %>
+</tr>

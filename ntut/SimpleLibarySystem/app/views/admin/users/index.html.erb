@@ -1,0 +1,11 @@
+<h2> 管理用戶 </h2>
+<%= link_to "新增用戶",new_admin_user_url %>
+<table class="table">
+    <thead>
+        <th>email</th>
+        <th>名字</th>
+    </thead>
+    <tbody>
+        <%= render @users %>
+    </tbody>
+</table>
